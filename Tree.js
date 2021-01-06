@@ -14,6 +14,6 @@ display(){
     imageMode(CENTER);
     var pos1 = this.body.position.x;
     var pos2 = this.body.position.y;
-    image(this.image,pos1,pos2,200,600);
+    image(this.image,pos1,pos2,650,1000);
 }
 }
