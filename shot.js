@@ -6,13 +6,12 @@ class Shot{
             stiffness: 0.03,
             length: 3
         }
-        
+  	this.pointB=pointB      
         this.rope=Constraint.create(options);
 
         World.add(world,this.rope);
     }
     attach(body){
-	    	this.pointB=pointB
 		this.rope.bodyA=body;
 	}
     
