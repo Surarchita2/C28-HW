@@ -7,16 +7,16 @@ class Shot{
             length: 3
         }
         
-        this.rope=constraint.create(options);
+        this.rope=Constraint.create(options);
 
         World.add(world,this.rope);
     }
     attach(body){
-		this.bodyA=body;
+		this.rope.bodyA=body;
 	}
     
     fly(){
-        this.bodyA=null;
+        this.rope.bodyA=null;
     }
     display(){
         if(this.bodyA){
