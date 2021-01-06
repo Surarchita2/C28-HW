@@ -73,8 +73,7 @@ ground.display();
  
 }
 function mouseDragged(){
-   stone.body.position.x=mouseX
-   stone.body.position.y=mouseY
+   Matter.Body.setPosition(stone.body, {x:mouseX, y:mouseY})
 }
 
 function mouseReleased(){
