@@ -24,7 +24,7 @@ function setup() {
 	boy = createSprite(200,500);
 	boy.addImage("boyImg",boyImg);
 	boy.scale = 0.1;
-	tree = new Tree(1050,580);
+	tree = new Tree(850,580);
 	
 	
 
