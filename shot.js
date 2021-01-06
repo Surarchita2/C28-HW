@@ -12,6 +12,7 @@ class Shot{
         World.add(world,this.rope);
     }
     attach(body){
+	    	this.pointB=pointB
 		this.rope.bodyA=body;
 	}
     
